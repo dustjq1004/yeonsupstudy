@@ -1,4 +1,4 @@
 package com.example.studyapp
 
-class Register {
+class Post {
 }
