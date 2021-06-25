@@ -1,0 +1,12 @@
+
+
+
+RecyclerView
+- 장점
+    - ListView의 개선판
+    - viewHolder 포함
+    - 유연하다
+        - LayoutManager
+            - Linear
+            - Grid
+            - StaggeredGrid

@@ -1,0 +1,18 @@
+
+Null Safety
+-> NUll에 대해서 안전하다.
+-> 코틀린의 특징
+Null vs 0
+->  0 : 휴지심만 남은 상태
+-> null : 휴지심도 없는 상태, 존재 하지 않는 상태
+
+
+1. ?
+2. !!
+
+사용방법
+button?.setOnClickListener <- 널이 아니라면 실행
+button!! <- 널이 아님을 개발자가 보장
+
+널이 될수 없는 타입
+Int, Double, Float, Class

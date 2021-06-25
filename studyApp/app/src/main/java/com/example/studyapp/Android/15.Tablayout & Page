@@ -8,3 +8,7 @@ Pager
 
 TabLayout
 - tab을 담당하는 역할
+
+Adapter
+- Tablayout 과 pager를 연결해주는 역할
+

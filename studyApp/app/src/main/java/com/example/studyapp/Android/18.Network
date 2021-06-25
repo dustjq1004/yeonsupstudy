@@ -1,0 +1,21 @@
+
+
+
+네트워크
+-> 통신
+
+Local DataBase 의 한계
+- 동기화가 어렵다
+- 상호작용이 불가능
+
+서버와 통신하는 법
+- 해당 url 을 요청한다.
+- 인증정보를 보낸다
+- Json 형식을 사용해서 data를 보낸다
+- JavaScript Object Notation
+
+라이브러리
+- Volly
+    - 구글 인수
+- Retrofit
+

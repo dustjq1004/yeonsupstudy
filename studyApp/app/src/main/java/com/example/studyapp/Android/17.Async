@@ -1,0 +1,27 @@
+
+
+비동기와 동기 방식
+
+1. 동기방식?
+    - 작업을 순서대로 진행한다.
+    - A>B>C>D
+    - 위부터 아래로 실행
+2. 비동기방식
+    - 쓰레드를 만들어서 작업을 따로 처리한다
+    -
+
+안드로이드에서 Async 다루는 방법
+ - AsyncTask 상속
+     - OnPreExecute         : 쓰레드 출발하기전에 할 작업
+     - doIntBackground      : 쓰레드가 할 작업
+     - onPregressUpdate     : 작업하는 중간중간에 MainThread로 온다
+     - OnPostExecute        : 작업이 끝나고 할 작업
+
+
+- Main Thread를 기다리게 할 필요가 없다.
+- 네트워크 작업
+
+단점
+- 재사용이 불가능하다.
+- 구현된 Activity가 종료될 경우 따라서 종료 되지 않는다.
+- AsyncTask는 하나만 실행될 수 있다.

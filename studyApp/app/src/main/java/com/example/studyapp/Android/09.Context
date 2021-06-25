@@ -1,0 +1,7 @@
+
+Coontext
+역할 -> ActivityManagerService에 접근 하도록 해주는 역할
+
+안드로이드는 이미 낳은 부분들이 만들어져 있다 -> 이런것들 사용하기 위해서는 Context가 필요한 경우가 많다
+
+

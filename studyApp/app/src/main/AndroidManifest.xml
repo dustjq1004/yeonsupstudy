@@ -2,20 +2,47 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.studyapp">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
     <application
+        android:name=".MasterApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.StudyApp">
-        <activity android:name=".FragmentActivity">
+        <activity android:name=".OutStargramUpldActivity"></activity>
+        <activity android:name=".OutStargramMyPostListActivity" />
+        <activity android:name=".OutStargramUserInfo" />
+        <activity android:name=".OutStargramPostListActivity" />
+        <activity android:name=".loginActivity" />
+        <activity android:name=".EmailSignUpAcitiviy">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".PermissionActivity" />
+        <activity android:name=".RetrofitActivity" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".NetworkActivity" />
+        <activity android:name=".AsyncActivity" />
+        <activity android:name=".RealmActivity" />
+        <activity android:name=".SharedAcitivity" />
+        <activity android:name=".TabPager2Acitivy" />
+        <activity android:name=".TapPagerActivity" />
+        <activity android:name=".RecycleViewActivity" />
+        <activity android:name=".ListViewActivity" />
+        <activity android:name=".addViewActivity" />
+        <activity android:name=".Library" />
+        <activity android:name=".ThreadActivity" />
+        <activity android:name=".Context" />
+        <activity android:name=".NullSafety" />
+        <activity android:name=".FragmentActivity" />
         <activity android:name=".Intent2">
 
             <!--
@@ -28,8 +55,7 @@
             </intent-filter>
             -->
         </activity>
-        <activity android:name=".Intent1">
-        </activity>
+        <activity android:name=".Intent1" />
         <activity android:name=".Linstener">
 
             <!--

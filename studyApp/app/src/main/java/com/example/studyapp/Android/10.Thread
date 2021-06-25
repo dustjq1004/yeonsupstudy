@@ -1,0 +1,17 @@
+
+Thread (쓰레드)
+= 작업 흐름
+
+앱실행 -> launcher Activity -> ->->->->-> 작업흐름
+
+안드로이드의 쓰레드
+-> main쓰레드
+   -> launcher Activity
+                        -> Activity B
+                                      -> 영상 재생
+
+안드로이드 MainThread의 특징
+- UI Thread라고도 한다.
+ : 사용자의 Input을 받는 쓰레드
+- 절대 정지시킬 수 없다.
+- 정지 시키거나 종료 시키면 더 이상 사용자의 input을 받을 수 없기 때문이다.

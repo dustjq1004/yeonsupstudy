@@ -1,4 +1,11 @@
 package com.example.studyapp
 
-class School {
+import io.realm.RealmObject
+
+open class School : RealmObject(){
+    var name : String? = null
+    var location : String? = null
+
+
+
 }
